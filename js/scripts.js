@@ -1,9 +1,18 @@
 // business logic
+// var numbersWithZero =
+// var numbersWithOne =
+// var numbersDivisThree =
 
 function numberTransform(userInput) {}
-var numbersWithZero =
-var numbersWithOne =
-var numbersDivisThree =
+var numberRange = "";
+if (userInput < 0)
+  alert("Please enter a positive number.");
+  return false;
+  console.log(userInput);
+
+
+
+
 
 // user-interface logic
 $(document).ready(function(){
