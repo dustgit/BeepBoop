@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a web application that takes a number from a user and returns create a range of numbers from 0 to the chosen number with exceptions that include the strings: _"Beep!"_, _"Boop!"_, and _"I'm sorry, Dave. I'm afraid I can't do that."_.
+This is a web application that takes a number from a user and returns a range of numbers from 0 to the chosen number with exceptions that include the strings: _"Beep!"_, _"Boop!"_, and _"I'm sorry, Dave. I'm afraid I can't do that."_
 
 ###  Specifications
 
@@ -16,6 +16,9 @@ This is a web application that takes a number from a user and returns create a r
 * This program does nothing to numbers below 1.
     * Example Input: -4
     * Example Output: -4
+* This program creates a range of numbers from 0 to 5 dependent on the user input.
+    * Example Input: 5
+    * Example Output: [0, 1, 2, 3, 4, 5]
 * This program replaces all digits of a number that contains a 0 with _"Beep!"_
     * Example Input: 20
     * Example Output: _"Beep!"_
@@ -33,7 +36,7 @@ This is a web application that takes a number from a user and returns create a r
 
 ## Support and contact details
 
-Thank you for taking your time to look on this, if you have any issues with this application or have a suggestion on making it better, please let me know.
+Thank you for taking your time to look at this, if you have any issues with this application or have a suggestion on making it better, please let me know.
 
 Email me at:  dustin.starke@gmail.com
 
