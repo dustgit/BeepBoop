@@ -15,19 +15,19 @@ This is a web application that takes a number from a user and returns a range of
     * Example Output: Hello
 * This program does nothing to numbers below 1.
     * Example Input: -4
-    * Example Output: -4
+    * Example Output: alert: Please enter a positive number.
 * This program creates a range of numbers from 0 to 5 dependent on the user input.
     * Example Input: 5
     * Example Output: [0, 1, 2, 3, 4, 5]
-* This program replaces all digits of a number that contains a 0 with _"Beep!"_
-    * Example Input: 20
-    * Example Output: _"Beep!"_
-* This program replaces all digits of a number that contains a 1 with _"Boop!"_
-    * Example Input: 11
-    * Example Output: _"Boop!"_
 * This program replaces all digits of a number that is divisible by 3 with _"I'm sorry, Dave. I'm afraid I can't do that."_
     * Example Input: 6
     * Example Output: _"I'm sorry, Dave. I'm afraid I can't do that."_
+* This program replaces all digits of a number that contains a 1 with _"Boop!"_
+    * Example Input: 11
+    * Example Output: _"Boop!"_
+* This program replaces all digits of a number that contains a 0 with _"Beep!"_
+    * Example Input: 20
+    * Example Output: _"Beep!"_
 
 ## Setup/Installation Requirements
 
