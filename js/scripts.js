@@ -6,27 +6,29 @@ console.log(numbersWithZero, numbersWithOne, numbersDivisThree);
 
 var numberTransform = function(userInput) {
   var rangeShown = [];
-  var userInputAsString = userInput.toString();
+  var userInputNowString = userInput.toString();
   // console.log(rangeShown);
-  console.log(userInputAsString);
+  console.log(userInputNowString);
 
   if (userInput < 0) {
     return alert("Please enter a positive number.");
   }
+
   for (var i = 0; i <= userInput; i++) {
-    if (user) {
-      var showBeep = numbersWithZero;
+    if (userInput % 3 === 0) {
+      var subNumber = numbersDivisThree;
+    } else if (userInput.includes(1)) {
+      var subNumber = numbersWithOne;
+    } else if (userInput.includes(0)) {
+      var subNumber = numbersWithZero;
+    } else {
       rangeShown.push(i);
+      var subNumber = (rangeShown.toString()).split(",").join(", ");
     }
-  }
-}
-var numberRange = (" ".concat(rangeShown.toString()).split(",").join(", "));
-return numberRange;
 
-};
-
-
-
+      return subNumber;
+    }
+  };
 
 
 // user-interface logic
