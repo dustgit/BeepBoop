@@ -9,8 +9,8 @@ var numberTransform = function(userInput) {
     alert("Please enter a positive number.");
     return false;
   } else {
-      for (var i = 0, i <= userInput; i++) {
-        if (userInput === 666) {
+      for (var i = 0; i <= userInput; i++) {
+        if (userInput === 6) {
         rangeShown.push(i);
       }
     }
@@ -30,7 +30,7 @@ $(document).ready(function(){
     event.preventDefault();
     var userInput = parseInt($("#userInput").val());
     var result = "";
-    result += numberTransform(userInput);
+    result = numberTransform(userInput);
     $("finalOutput").text(result);
     $("#results").show();
   });
